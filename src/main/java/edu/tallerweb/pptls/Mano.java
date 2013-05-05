@@ -32,8 +32,7 @@ public class Mano {
 		return resultado;
 	}
 	//metodo utilizado para cargar las reglas del juego
-	private static void cargarReglasDelJuego(){
-		
+	private static void cargarReglasDelJuego() {
 		reglasDelJuego = new HashMap<String, Enum>();
 		reglasDelJuego.put(Forma.LAGARTO.getValor() + "VS" + Forma.LAGARTO.getValor(), Resultado.EMPATA);
 		reglasDelJuego.put(Forma.LAGARTO.getValor() + "VS" + Forma.SPOCK.getValor(), Resultado.GANA);
